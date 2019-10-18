@@ -1,7 +1,7 @@
 object Form3: TForm3
   Left = 0
   Top = 0
-  Caption = 'Form3'
+  Caption = 'tmem'
   ClientHeight = 300
   ClientWidth = 635
   Color = clBtnFace
@@ -28,5 +28,14 @@ object Form3: TForm3
     Height = 21
     TabOrder = 1
     Text = 'Edit1'
+  end
+  object Memo1: TMemo
+    Left = 256
+    Top = 144
+    Width = 185
+    Height = 89
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 2
   end
 end
